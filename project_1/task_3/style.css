@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    overflow: auto;
+    /*display: flex;*/
+}
+
+.team {
+    float: left;
+    padding: 20px;
+    border: 1px solid #999;
+    width: 158px;
+    background-color: white;
+}
+
+.person {
+    float: right;
+    width: 78px;
+    border: 1px solid #999;
+    background-color: white;
+    padding: 20px;
+}
+
+.person-icon {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.description {
+    border: 1px solid #999;
+    padding: 20px;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    width: 65%;
+    /*flex: 1;*/
+}
+
+p {
+    margin-bottom: 5px;
+}

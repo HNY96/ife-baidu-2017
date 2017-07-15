@@ -16,111 +16,133 @@
     </ul>
 </div>
 <div class="background">
-    <div class="article">
-        <h2 class="head-1">文章一级标题</h2>
-        <h3 class="head-2">文章二级标题</h3>
-        <p class="head-3">文章作者 文章时间</p>
-        <p>balabala,balabala,balabala,balabala<br/>balabala,balabala,balabala<br/>balabala,balabala,<a
-                href="http://ife.baidu.com">这有一个链接</a>balabala,balabala,<strong>这有粗体字</strong>balabala,balabala,balabala,balabala,balabala,balabala
-        </p>
-        <img src="her-2013.jpg"/>
-        <p>balabala,balabala,balabala,balabala<br/>balabala,balabala,balabala<br/>balabala,balabala,<a
-                href="http://ife.baidu.com" target="_blank">这有一个链接</a>balabala,balabala,<strong>这有粗体字</strong>balabala,balabala,balabala,balabala,balabala,balabala
-        </p>
+    <div class="flex-container-1">
+        <div class="article">
+            <h2 class="head-1">文章一级标题</h2>
+            <h3 class="head-2">文章二级标题</h3>
+            <p class="head-3">文章作者 文章时间</p>
+            <p>balabala,balabala,balabala,balabala<br/>balabala,balabala,balabala<br/>balabala,balabala,<a
+                    href="http://ife.baidu.com">这有一个链接</a>balabala,balabala,<strong>这有粗体字</strong>balabala,balabala,balabala,balabala,
+            </p>
+            <img src="her-2013.jpg"/>
+            <p>balabala,balabala,balabala,balabala<br/>balabala,balabala,balabala<br/>balabala,balabala,<a
+                    href="http://ife.baidu.com" target="_blank">这有一个链接</a>balabala,balabala,<strong>这有粗体字</strong>balabala,balabala,balabala,balabala,balabala,balabala
+            </p>
+        </div>
+        <div class="side-bar">
+            <h2 style="border-left: 6px solid #eeeeee;padding: 5px;margin: 20px 5px">一个侧栏的标题</h2>
+            <form>
+                <label for="email">请输入邮箱地址：</label><input type="text" name="email" value="请输入邮箱" id="email">
+                <br/>
+                <small>邮箱格式请按要求输入</small>
+                <br/>
+                <label for="password">请输入密码：</label><input name="password" type="text" id="password">
+                <br/>
+                <label for="password-confirm">请重复输入密码：</label><input type="text" name="password-confirm"
+                                                                     id="password-confirm">
+                <br/>
+                <small>密码请为6-16位英文数字</small>
+                <br/>
+                <label>性别：</label><input type="radio" name="sex" id="male" checked>男 <input type="radio" name="sex"
+                                                                                            id="female">女
+                <br/>
+                <label>城市：</label><select name="city">
+                <option value="beijing">北京</option>
+                <option value="shanghai">上海</option>
+            </select>
+                <br/>
+                <label>爱好：</label><input type="checkbox" name="hobby" value="soccer">足球
+                <input type="checkbox" name="hobby" value="basketball">篮球
+                <input type="checkbox" name="hobby" value="swim">游泳
+                <br/>
+                <label style="vertical-align: top;">个人描述：</label><textarea name="personal"
+                                                                           style="width: 200px;height: 100px;"></textarea>
+                <br/>
+                <input type="submit" id="commit" value="确认提交">
+            </form>
+        </div>
     </div>
-    <div class="article">
-        <h2 class="head-1">另一篇文章的一级标题</h2>
-        <h3 class="head-2">文章的二级标题</h3>
-        <p class="head-3">文章作者 文章时间</p>
-        <p>balabala,balabala,balabala,balabala<br/>balabala,balabala,balabala<br/>balabala,balabala,<a
-                href="http://ife.baidu.com">这有一个链接</a>balabala,balabala,<strong>这有粗体字</strong>balabala,balabala,balabala,balabala,balabala,balabala
-        </p>
-        <img src="C65wy-AWkAUV2x5.jpg-large.jpeg"/>
-        <ul style="list-style: none; text-indent: 1em;">
-            <li>列表项目一</li>
-            <li>列表项目二</li>
-            <li>列表项目三</li>
-        </ul>
+    <div class="flex-container-2">
+        <div class="article" style="margin-right: 550px">
+            <h2 class="head-1">另一篇文章的一级标题</h2>
+            <h3 class="head-2">文章的二级标题</h3>
+            <p class="head-3">文章作者 文章时间</p>
+            <p>balabala,balabala,balabala,balabala<br/>balabala,balabala,balabala<br/>balabala,balabala,<a
+                    href="http://ife.baidu.com">这有一个链接</a>balabala,balabala,<strong>这有粗体字</strong>balabala,balabala,balabala,balabala,balabala,balabala
+            </p>
+            <img src="C65wy-AWkAUV2x5.jpg-large.jpeg"/>
+            <ul style="list-style: none; text-indent: 1em;">
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ul>
+        </div>
     </div>
-    <div class="article">
-        <h2>图片</h2>
-        <p>好看的图片</p>
-        <img src="p2204331432.jpg"/>
+    <div class="flex-container-3">
+        <div class="article" style="margin-right: 550px; display: flex; flex-wrap: wrap">
+            <div class="image">
+                <p>好看的图片</p>
+                <img src="p2204331432.jpg"/>
+            </div>
+            <div class="image">
+                <p>好看的图片</p>
+                <img src="p2204331432.jpg"/>
+            </div>
+            <div class="image">
+                <p>好看的图片</p>
+                <img src="p2204331432.jpg"/>
+            </div>
+            <div class="image">
+                <p>好看的图片</p>
+                <img src="p2204331432.jpg"/>
+            </div>
+        </div>
     </div>
-    <div class="article">
-        <h2 class="head-1">最后一篇文章的一级标题</h2>
-        <h3 class="head-2">文章的二级标题</h3>
-        <p class="head-3">文章作者 文章时间</p>
-        <ol style="margin: 1em 2em;">
-            <li>排名一</li>
-            <li>排名二</li>
-            <li>排名三</li>
-        </ol>
-        <p style="text-indent: 0px;">下面是一个表格</p>
-        <table style="width: 100%;border-right:1px solid grey;border-bottom:1px solid grey;border-collapse: collapse;">
-            <tr>
-                <th>表头</th>
-                <th>表头</th>
-                <th>表头</th>
-            </tr>
-            <tr>
-                <td>表内容单元格</td>
-                <td>表内容单元格</td>
-                <td><a href="">操作</a></td>
-            </tr>
-            <tr>
-                <td>表内容单元格</td>
-                <td>表内容单元格</td>
-                <td><a href="">操作</a></td>
-            </tr>
-            <tr>
-                <td>表内容单元格</td>
-                <td>表内容单元格</td>
-                <td><a href="">操作</a></td>
-            </tr>
-            <tr>
-                <td>表内容单元格</td>
-                <td>表内容单元格</td>
-                <td><a href="">操作</a></td>
-            </tr>
-            <tr style="background-color: #bbbbbb">
-                <td>总计</td>
-                <td colspan="2"><strong>1000</strong></td>
-            </tr>
-        </table>
+    <div class="flex-container-4">
+        <div class="article"  style="margin-right: 550px">
+            <h2 class="head-1">最后一篇文章的一级标题</h2>
+            <h3 class="head-2">文章的二级标题</h3>
+            <p class="head-3">文章作者 文章时间</p>
+            <ol style="margin: 1em 2em;">
+                <li>排名一</li>
+                <li>排名二</li>
+                <li>排名三</li>
+            </ol>
+            <p style="text-indent: 0px;">下面是一个表格</p>
+            <table style="width: 100%;border-right:1px solid grey;border-bottom:1px solid grey;border-collapse: collapse;">
+                <tr>
+                    <th>表头</th>
+                    <th>表头</th>
+                    <th>表头</th>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="">操作</a></td>
+                </tr>
+                <tr style="background-color: #bbbbbb">
+                    <td>总计</td>
+                    <td colspan="2"><strong>1000</strong></td>
+                </tr>
+            </table>
+        </div>
     </div>
-    <div class="side-bar">
-        <h2 style="border-left: 6px solid #eeeeee;padding: 5px;margin: 20px 5px">一个侧栏的标题</h2>
-        <form>
-            <label for="email">请输入邮箱地址：</label><input type="text" name="email" value="请输入邮箱" id="email">
-            <br/>
-            <small>邮箱格式请按要求输入</small>
-            <br/>
-            <label for="password">请输入密码：</label><input name="password" type="text" id="password">
-            <br/>
-            <label for="password-confirm">请重复输入密码：</label><input type="text" name="password-confirm"
-                                                                 id="password-confirm">
-            <br/>
-            <small>密码请为6-16位英文数字</small>
-            <br/>
-            <label>性别：</label><input type="radio" name="sex" id="male" checked>男 <input type="radio" name="sex"
-                                                                                        id="female">女
-            <br/>
-            <label>城市：</label><select name="city">
-            <option value="beijing">北京</option>
-            <option value="shanghai">上海</option>
-        </select>
-            <br/>
-            <label>爱好：</label><input type="checkbox" name="hobby" value="soccer">足球
-            <input type="checkbox" name="hobby" value="basketball">篮球
-            <input type="checkbox" name="hobby" value="swim">游泳
-            <br/>
-            <label style="vertical-align: top;">个人描述：</label><textarea name="personal"
-                                                                       style="width: 300px;height: 100px;"></textarea>
-            <br/>
-            <input type="submit" id="commit" value="确认提交">
-        </form>
-    </div>
+
     <div class="footer">
         版权所有©
     </div>

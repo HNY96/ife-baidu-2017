@@ -28,17 +28,36 @@ li.flex-item {
 }
 
 .background {
-    display: flex;
     background-color: #dddddd;
-    align-items: center;
+    display: flex;
     flex-direction: column;
 }
 
-.article, .side-bar {
+.flex-container-1,
+.flex-container-2,
+.flex-container-3,
+.flex-container-4 {
+    display: flex;
+    width: 100vw;
+}
+
+.flex-container-1 .article{
+    flex: 1;
+}
+
+.article {
     background-color: ivory;
     margin: 10px;
     padding: 10px 20px;
-    width: 70%;
+    flex: 1;
+}
+
+.side-bar {
+    background-color: ivory;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 480px;
+    height: 500px;
 }
 
 .head-1 {
@@ -86,7 +105,7 @@ tr {
 }
 
 label {
-    width: 30%;
+    width: 40%;
     text-align: right;
     display: inline-block;
     margin-top: 5px;
@@ -101,7 +120,7 @@ input, select, textarea {
 
 small {
     margin-left: 30%;
-    padding-left: 20px;
+    padding-left: 68px;
     color: #666666;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -123,7 +142,7 @@ small {
     background-color: #444444;
     height: 40px;
     color: white;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;

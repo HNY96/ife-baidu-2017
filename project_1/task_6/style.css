@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 1386px;
+    width: 980px;
+    padding: 0px 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.flex-container-1 {
+    height: 61px;
+    width: 892px;
+    border-bottom: 2px solid #938e8c;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.container-1-item-1 {
+    width: 110px;
+    height: 61px;
+    background-color: #c66560;
+    position: relative;
+    margin-right: auto;
+}
+
+.container-1-item-2 {
+    width: 110px;
+    height: 61px;
+    position: relative;
+}
+
+.flex-container-2 {
+    height: 301px;
+    width: 892px;
+    display: flex;
+    position: relative;
+}
+
+.container-2-item-1 {
+    margin-right: auto;
+}
+
+.container-2-item-2 {
+    width: 203px;
+    height: 299px;
+    border-top: 2px solid #cc8091;
+    padding-top: 15px;
+}
+
+.container-2-item-3 {
+    width: 203px;
+    position: relative;
+    margin-top: 17px;
+}
+
+.flex-container-3 {
+    width: 892px;
+    height: 200px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.container-3-item-1,
+.container-3-item-2 {
+    width: 203px;
+    height: 200px;
+    margin-right: 16px;
+}
+
+.container-3-item-3 {
+    width: 203px;
+    height: 200px;
+}
+
+.item-inline {
+    line-height: 16px;
+}
+
+.item-inline-1 {
+    font-size: 12px;
+    color: #231815;
+    font-family: "Microsoft Sans Serif";
+    opacity: 0.7;
+}
+
+.item-inline-2 {
+    font-size: 12px;
+    color: #cd4a48;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.flex-container-4 {
+    display: flex;
+    width: 892px;
+    height: 613px;
+}
+
+.flex-container-5 {
+    width: 415px;
+    height: 613px;
+}
+
+.container-5-item-1 {
+    width: 415px;
+    height: 160px;
+    border-bottom: 2px solid #11456b;
+}
+
+.container-5-item-2 {
+    width: 415px;
+    height: 440px;
+    margin-top: 10px;
+}
+
+#float-left {
+    float: left;
+    font-size: 70px;
+    font-family: "Microsoft Sans Serif";
+    color: #f5e327;
+    margin: -12px 10px;
+}
+
+#float-right {
+    float: right;
+    clear: left;
+    margin: 10px 10px;
+}
+
+.flex-container-6 {
+    width: 458px;
+    height: 613px;
+    margin-left: 19px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-6-item-1 {
+    width: 458px;
+    height: 275px;
+    position: relative;
+}
+
+.container-6-item-3 {
+    width: 458px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    top: 215px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+/*用绝对定位来取消父元素的透明度的继承*/
+.container-6-item-4 {
+    width: 300px;
+    height: 44px;
+    border-left: 3px solid #72b16a;
+    position: absolute;
+    left: 30px;
+    top: 223px;
+}
+
+.container-6-item-2 {
+    width: 458px;
+    height: 318px;
+    margin-top: 20px;
+    background-color: #eeeed8;
+    position: relative;
+}
+
+li {
+    width: 389px;
+    margin: 15px 20px 15px 50px;
+}
+
+.container-6-item-5 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #c66560;
+    width: 260px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-6-item-6 {
+    height: 76px;
+    width: 180px;
+    border-left: 2px solid #fff;
+    padding: 5px 5px;
+}
+
+.container-6-item-7 {
+    width: 198px;
+    height: 160px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.flex-container-7 {
+    margin-top: 20px;
+    border-top: 1px solid #938e8c;
+    width: 892px;
+    height: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}

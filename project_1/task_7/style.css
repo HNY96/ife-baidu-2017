@@ -6,7 +6,7 @@
 body {
     display: flex;
     width: 1280px;
-    height: 4600px;
+    height: 4500px;
     flex-direction: column;
     margin: 0 auto;
 }
@@ -168,4 +168,270 @@ select {
     background-color: #f8f8f8;
     height: 604px;
     width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-6-item-1 {
+    width: 231px;
+    height: 406px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+.container-6-item-2 {
+    width: 218px;
+    height: 336px;
+    background-color: white;
+    border-left: 1px solid #cccccc;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    position: relative;
+}
+
+.container-6-item-3 {
+    font-family: "Microsoft Sans Serif";
+    font-size: 15px;
+    color: black;
+    opacity: 0.8;
+    margin: 10px;
+}
+
+.container-6-item-4 {
+    font-family: "Microsoft Sans Serif";
+    font-size: 12px;
+    color: #938e8c;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.container-6-item-5 {
+    font-family: "Microsoft Sans Serif";
+    font-size: 21px;
+    color: black;
+    opacity: 0.8;
+    letter-spacing: 1em;
+    text-indent: 1em;
+    margin: 10px;
+}
+
+.container-6-item-6 {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+}
+
+.flex-container-7 {
+    width: 1280px;
+    height: 566px;
+    display: flex;
+}
+
+.container-7-item-1 {
+    width: 850px;
+    height: 566px;
+    background: url("suit.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-7-item-2 {
+    width: 430px;
+    height: 566px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#container-7-item-3 {
+    width: 430px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-7-item-4 {
+    width: 103px;
+    height: 31px;
+    border: 1px solid #d65b55;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-triangle {
+    width: 0;
+    height: 0;
+    border-right: 30px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+
+.flex-container-8 {
+    width: 1280px;
+    height: 520px;
+    display: flex;
+}
+
+#container-8-item-1 {
+    width: 425px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d65b55;
+}
+
+#container-8-item-1 p {
+    color: #fff;
+    font-family: "Microsoft Sans Serif";
+    font-size: 20px;
+}
+
+#container-8-item-2 {
+    width: 425px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+}
+
+#container-8-item-2 p {
+    color: #000;
+    font-family: "Microsoft Sans Serif";
+    font-size: 20px;
+}
+
+#container-8-item-3 {
+    width: 430px;
+    height: 520px;
+    background: url("woman.jpg");
+}
+
+#right-triangle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+}
+
+.flex-container-9 {
+    width: 1280px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-9 .container-9-item-1 {
+    font-family: "Microsoft Sans Serif";
+    font-size: 12px;
+    color: #938e8c;
+}
+
+#container-9-item-2 {
+    width: 1280px;
+    height: 330px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-9-item-3 {
+    width: 310px;
+    height: 330px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#container-9-item-3 .container-9-item-4 {
+    font-family: "Microsoft Sans Serif";
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+#container-9-item-3 .container-9-item-5 {
+    font-family: "Microsoft Sans Serif";
+    font-size: 12px;
+    color: #938e8c;
+}
+
+.container-9-item-6 {
+    width: 48px;
+    height: 10px;
+    background: url("arrow_down.png") no-repeat 50% 50%;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#container-9-item-4 {
+    width: 674px;
+    height: 330px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.flex-container-10 {
+    width: 1280px;
+    height: 358px;
+    background-color: #34363e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-10 form {
+    width: 510px;
+    height: 40px;
+    position: relative;
+    margin-top: 30px;
+}
+
+#icon-box {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+#icon-box img {
+    margin: 0 15px;
+}
+
+.flex-container-11 {
+    width: 1280px;
+    height: 56px;
+    background-color: #303039;
+    position: relative;
 }

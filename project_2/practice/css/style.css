@@ -1,0 +1,15 @@
+div:nth-child(odd) {
+    background-color: red;
+}
+
+[href$=".com"] {
+    color: yellow;
+}
+
+div:before {
+    content:"台词：";
+}
+
+p~p {
+    background-color: blue;
+}

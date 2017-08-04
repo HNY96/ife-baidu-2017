@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-container {
+    width: 1400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444;
+    background-color: white;
+}
+
+.layer-1 {
+    flex: 1;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444;
+    margin: 5px 5px;
+    background-color: white;
+    color: black;
+}
+
+.layer-2 {
+    flex: 1;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444;
+    margin: 5px 5px;
+    background-color: white;
+    color: black;
+}
+
+.layer-3 {
+    flex: 1;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444;
+    margin: 5px 5px;
+    background-color: white;
+    color: black;
+}
+
+.layer-4 {
+    flex: 1;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444;
+    margin: 5px 5px;
+    background-color: white;
+    color: black;
+}
+
+.layer-5 {
+    flex: 1;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444;
+    margin: 5px 5px;
+    background-color: white;
+    color: black;
+}
+
+.mark {
+    background-color: blue;
+}
+
+.got {
+    background-color: red;
+    color: white;
+}

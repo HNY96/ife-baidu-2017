@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>task 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="javascript/main.js"></script>
+    </head>
+    <body id='area'>
+        <form>
+            <div id='name' class="item">
+                <span>名称</span>
+                <div class="inputBox">
+                    <input type="text" id="inputName">
+                    <p>必填，长度为4~16个字符</p>
+                </div>
+            </div>
+            <div id='password' class="item">
+                <span>密码</span>
+                <div class="inputBox">
+                    <input type="text" id="inputPass">
+                    <p>必填，长度为8~20个字符，必须包含英文字符大小写和数字</p>
+                </div>
+            </div>
+            <div id='passwordConfirm' class="item">
+                <span>密码确认</span>
+                <div class="inputBox">
+                    <input type="text" id="inputVerify">
+                    <p>再次输入相同密码</p>
+                </div>
+            </div>
+            <div id='email' class="item">
+                <span>邮箱</span>
+                <div class="inputBox">
+                    <input type="text" id="inputEmail">
+                    <p>必填，需符合邮箱格式</p>
+                </div>
+            </div>
+            <div id='phone' class="item">
+                <span>手机</span>
+                <div class="inputBox">
+                    <input type="text" id="inputPhone">
+                    <p>必填，需符合中国大陆手机格式</p>
+                </div>
+            </div>
+            <input type="submit" value="提交" id='submit'>
+        </form>
+    </body>
+</html>

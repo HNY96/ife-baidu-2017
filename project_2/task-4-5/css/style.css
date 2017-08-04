@@ -35,9 +35,18 @@ body {
     margin: 1px;
     display: flex;
     justify-content: center;
-    align-items: flex-end; 
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.showingNumber:hover {
+    background-color: grey;
 }
 
 #sortAll {
     margin-top: 30px;
+}
+
+[type=button] {
+    cursor: pointer;
 }

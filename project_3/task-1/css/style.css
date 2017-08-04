@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    margin: 30px 30px;
+}
+
+[type=text] {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 30px;
+    padding: 0 5px;
+}
+
+[type=button] {
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: #4377b5;
+    color: white;
+    border: 0px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#note {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    color: #ccc;
+    font-size: 12px;
+}

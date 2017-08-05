@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.student {
+    width: 600px;
+    height: 40px;
+    position: relative;
+}
+
+#student {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#notStudent {
+    position: absolute;
+    left: 210px;
+    top: 5px;
+}
+
+#studentName {
+    position: absolute;
+    left: 25px;
+}
+
+#notStudentName {
+    position: absolute;
+    left: 225px;
+}
+
+#shanghaiUni {
+    display: none;
+}
+
+#shanxiUni {
+    display: none;
+}
+
+#university {
+    width: 150px;
+    height: 30px;
+    margin-right: 50px;
+}
+
+.universityList {
+    width: 200px;
+    height: 30px;
+}
+
+#workplace {
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#displayNotStudent {
+    display: none;
+}

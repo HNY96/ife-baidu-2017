@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>task 3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="javascript/main.js"></script>
+</head>
+
+<body>
+    <form>
+        <div class="student">
+            <input type="radio" name="position" id="student" checked="checked">
+            <span id="studentName">在校生</span>
+            <input type="radio" name="position" id="notStudent">
+            <span id="notStudentName">非在校生</span>
+        </div>
+        <div id="displayStudent">
+            <span style="margin-right:5px">学校</span>
+            <select id="university" onchange="changeList()">
+                <option value="beijing" id="beijing">北京</option>
+                <option value="shanghai" id="shanghai">上海</option>
+                <option value="shanxi" id="shanxi">山西</option>
+            </select>
+            <select id="beijingUni" class="universityList">
+                <option>北京大学</option>
+                <option>清华大学</option>
+                <option>北京邮电大学</option>
+            </select>
+            <select id="shanghaiUni" class="universityList">
+                <option>复旦大学</option>
+                <option>上海交通大学</option>
+                <option>上海财经大学</option>
+            </select>
+            <select id="shanxiUni" class="universityList">
+                <option>山西大学</option>
+                <option>太原理工大学</option>
+                <option>中北大学</option>
+            </select>
+        </div>
+        <div id="displayNotStudent">
+            <span style="margin-right:10px">就业单位</span>
+            <input type="text" placeholder="请输入单位名称" id="workplace">
+        </div>
+    </form>
+</body>
+
+</html>

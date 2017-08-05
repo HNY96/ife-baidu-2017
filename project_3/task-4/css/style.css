@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+td {
+    height: 40px;
+    width: 40px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+table {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.north {
+    background: url('../image/north.png');
+}
+
+.east {
+    background: url('../image/east.png');
+}
+
+.west {
+    background: url('../image/west.png');
+}
+
+.south {
+    background: url('../image/south.png');
+}

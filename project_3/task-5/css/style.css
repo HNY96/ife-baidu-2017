@@ -46,4 +46,5 @@ body {
     border: none;
     background-color: #3e97d1;
     color: white;
+    cursor: pointer;
 }

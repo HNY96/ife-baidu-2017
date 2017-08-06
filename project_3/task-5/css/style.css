@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+td {
+    height: 40px;
+    width: 40px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+table {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+body {
+    position: relative;
+}
+
+.command {
+    width: 700px;
+    height: 500px;
+    overflow: scroll;
+    position: absolute;
+    left: 500px;
+    top: 0;
+}
+
+#command {
+    width: 200px;
+    padding: 0 10px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+[type = button] {
+    -webkit-appearance: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+    border: none;
+    background-color: #3e97d1;
+    color: white;
+}

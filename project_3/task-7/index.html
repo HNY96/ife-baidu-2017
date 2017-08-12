@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>task 7</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="javascript/main.js"></script>
+</head>
+
+<body>
+    <table cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>Chinese</th>
+            <th>Math</th>
+            <th>English</th>
+            <th>Total</th>
+        </tr>
+    </table>
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="chinese" placeholder="Chinese">
+    <input type="text" id="math" placeholder="Math">
+    <input type="text" id="english" placeholder="English">
+    <input type="button" id="insert" value="Confirm to insert">
+    <br>
+    <br>
+    <span>Choose which one can be sorted: </span>
+    <input type="checkbox" name="valid" id="nameValid" value="name"><span>Name</span>
+    <input type="checkbox" name="valid" id="chValid" value="chinese"><span>Chinese</span>
+    <input type="checkbox" name="valid" id="maValid" value="math"><span>Math</span>
+    <input type="checkbox" name="valid" id="enValid" value="english"><span>English</span>
+    <input type="checkbox" name="valid" id="toValid" value="total"><span>Total</span>
+    <input type="button" id="validConfirm" value="Confirm">
+    <br>
+    <br>
+    <span>You can choose one to sort the items: </span>
+    <select id="canSort"></select>
+    <input type="radio" name="sortName" id="az" value="az" checked="checked"><span>a to z</span>
+    <input type="radio" name="sortName" id="za" value="za"><span>z to a</span>
+    <input type="button" id="sortConfirm" value="Sort!">
+</body>
+
+</html>
